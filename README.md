@@ -6,6 +6,14 @@ A Chrome side panel extension that brings Gemini 2.0 Flash directly into the bro
 
 ---
 
+## Screenshots
+
+| Chat in action | Code block rendering | Settings | First-run state |
+|---|---|---|---|
+| ![Chat](screenshots/sidepanel.png) | ![Code block](screenshots/sidepanel_codeblock.png) | ![Settings](screenshots/settings.png) | ![Empty state](screenshots/sidepanel_empty.png) |
+
+---
+
 ## Overview
 
 Gemini Chat Extension opens as a Chrome side panel, so you can chat with Gemini 2.0 Flash while keeping your current tab open. It stores conversation history in `chrome.storage.local` and replays it across sessions, so context survives tab reloads and browser restarts. The entire extension is vanilla JavaScript with no build step, no npm packages, and no bundler.
